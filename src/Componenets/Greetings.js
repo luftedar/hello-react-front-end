@@ -8,7 +8,6 @@ function Greetings() {
   useEffect(() => {
     dispatch(getAllRandomGreeting());
   }, []);
-  console.log(randomGreeting);
   return (
     <div>
       <h3>Refresh Page to See Random Greeting</h3>
