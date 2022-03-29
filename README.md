@@ -1,56 +1,61 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello React Front End
 
-> Description the project.
+> Built for the hello-rails-front-end project
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- JavaScript
+- React.js
+- Redux
+- Redux Thunk
+- React Router
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+- Clone repository
+
+```
+git clone https://github.com/luftedar/hello-rails-front-end.git
+```
+
+- Cd into directory
+
+```
+cd hello-rails-front-end
+```
+
+- Install node packages
+
+```
+npm install
+```
+
+- Run server
+
+```
+npm start
+```
+
+- You need to start localhost for using api. Please check following repo
+
+[Back End Rails App](https://github.com/luftedar/hello-rails-back-end)
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- NPM
+- Node
 
 ## Authors
 
-👤 **Author1**
+👤 **Orçun Uğur**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/luftedar)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/orcunugur)
 
 ## 🤝 Contributing
 
@@ -64,9 +69,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project built in Microverse's Final Capstone Module.
 
 ## 📝 License
 
