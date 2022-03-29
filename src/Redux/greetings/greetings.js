@@ -8,17 +8,17 @@ export const getAllRandomGreeting = () => async (dispatch) => {
   const payload = apiData.messages;
   dispatch({
     type: FETCH_RANDOM_GREETING,
-    payload
+    payload,
   });
 };
 
-const greetingReducer = ( state = initialState, action ) => {
+const greetingReducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_RANDOM_GREETING:
       return action.payload;
     default:
       return state;
-  };
+  }
 };
 
 export default greetingReducer;

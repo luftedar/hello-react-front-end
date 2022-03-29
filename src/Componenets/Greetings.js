@@ -1,16 +1,20 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllRandomGreeting } from '../Redux/greetings/greetings';
 
 function Greetings() {
-  const dispatch = useDispatch
-  const randomGreeting = useSelector((state) => state.randomGreeting);
+  const dispatch = useDispatch();
+  const randomGreeting = useSelector((state) => state.greetingReducer);
   useEffect(() => {
     dispatch(getAllRandomGreeting());
   }, []);
+  console.log(randomGreeting);
   return (
-    <div>{randomGreeting}</div>
-  )
+    <div>
+      <h3>Refresh Page to See Random Greeting</h3>
+      <h2>{randomGreeting}</h2>
+    </div>
+  );
 }
 
-export default Greetings
+export default Greetings;
