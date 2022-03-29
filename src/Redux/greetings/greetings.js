@@ -12,7 +12,7 @@ export const getAllRandomGreeting = () => async (dispatch) => {
   });
 };
 
-const randomReducer = ( state = initialState, action ) => {
+const greetingReducer = ( state = initialState, action ) => {
   switch (action.type) {
     case FETCH_RANDOM_GREETING:
       return action.payload;
@@ -21,4 +21,4 @@ const randomReducer = ( state = initialState, action ) => {
   };
 };
 
-export default randomReducer;
+export default greetingReducer;
